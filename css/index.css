@@ -1,0 +1,191 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+            background-color: #ffffff;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    
+    min-height: 1000px;
+    max-width: 1200px;
+    margin: 80px auto;
+}
+.registration{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.left{
+    width: 970px;
+    margin-left: 60px;
+}
+.right{
+    width: 760px;
+    height: 600px;
+    ;
+}
+.right > .intro {
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.right > .underintro{
+    font-size: 40px;
+    font-weight: bold;
+     margin-top: 40px;
+     margin-bottom: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.form > .google {
+    width: 266px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #3C4043;
+    /*position: relative;*/
+    
+}
+.form > .apple{
+    width: 266px;
+    height: 38px;
+    font-weight: bold;
+}
+.form > .register{
+    width: 266px;
+    height: 38px;
+    color:#ffffff;
+    background-color: #1D9BF0;
+}
+.form > button {
+    margin: 5px 0;
+    border-radius: 40px;
+    border: solid 1px #DDDFE2FF;
+    background-color: #ffffff;
+}
+button :hover {
+    cursor: pointer;
+
+}
+.googlelogo{
+    margin-right: 8px;
+   /* position: absolute;
+    top: 11px;
+    left: 50px;*/
+}
+.apple{
+    /*position: relative;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.applelogo{
+    /*position: absolute;*/
+    top: 7px;
+    left: 36px;
+
+}
+.or{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.justor{
+    margin-left: 4px;
+}
+.line1 , .line2 {
+    width: 119px;
+    height: 1px;
+    background-color: #DDDFE2FF;
+}
+.line1{
+    margin-right: 6px;
+}
+.line2{
+    margin-left: 6px;
+}
+.info{
+    margin-top: 10px;
+    font-size: 11px;
+    width: 270px;
+    text-decoration: none;
+    color: #536471;
+}
+.info > a{
+    text-decoration: none;
+    color: #1D9BF0;
+}
+.already{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.urish{
+    width: 266px;
+    height: 38px;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 5px 0;
+    border-radius: 40px;
+    border: solid 1px #DDDFE2FF;
+    background-color: #ffffff;
+    color: #1D9BF0;
+
+    
+}
+.xx{
+    width:340px; 
+    height:308px;
+}
+
+@media screen and (max-width:1000px) {
+    .wrapper{
+        overflow-y: hidden;
+    }
+    .xx{
+        width: 50%;
+        height: 50%;
+    }
+    .registration{
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+  
+    
+}
+@media screen and (max-width:389px) {
+    .registration{
+        min-width: 292px;
+    }
+    .right{
+        margin-left: 10px;
+    }
+    .right > .intro {
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 20px;
+    
+    }
+    .right > .underintro{
+        font-size: 20px;
+        font-weight: bold;
+         margin-top: 40px;
+         margin-left: 20px;
+         margin-bottom: 20px;
+    }
+  
+    
+}
